@@ -41,7 +41,7 @@ class Variabile:
     sprite_sheet_image_links=pygame.transform.scale(pygame.image.load('Links_Button.png').convert_alpha(),(100,100))
     sprite_sheet_image_back_arrow=pygame.transform.scale(pygame.image.load('Back_arrow.png').convert_alpha(),(50,50))
     sprite_sheet_image_tree=pygame.transform.scale(pygame.image.load('Christmas Tree.png').convert_alpha(),(200,200))
-
+    sprite_sheet_image_snowflakes=pygame.transform.scale(pygame.image.load('Assets/snowflake.png').convert_alpha(),(200,200))
 
 
 class Linkuri_text:

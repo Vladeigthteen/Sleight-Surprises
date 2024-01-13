@@ -29,6 +29,7 @@ class Player:
         Variabile.screen.blit(Variabile.Backround,(0,0)) 
         player_fliped=Player.fliped_player(Player.angle)
         Variabile.screen.blit(player_fliped,Player.player)
+        
         for obstacle in obstacles:
             pygame.draw.rect(Variabile.screen,"white",obstacle)
         
