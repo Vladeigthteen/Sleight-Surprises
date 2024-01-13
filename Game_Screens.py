@@ -154,6 +154,7 @@ def Links_Menu():
         Variabile.screen.blit(Linkuri_text.text2,(10,30))
         Variabile.screen.blit(Linkuri_text.text3,(10,50))
         Variabile.screen.blit(Linkuri_text.text4,(10,70))
+        Variabile.screen.blit(Linkuri_text.text5,(10,90))
 
 
 

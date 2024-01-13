@@ -50,6 +50,7 @@ class Linkuri_text:
     text2=FONT.render("- https://www.flaticon.com/search?word=christmas",1,"#ebd198")
     text3=FONT.render("- https://brunizitu.itch.io/save-the-christmas",1,"#ebd198")
     text4=FONT.render("- https://docs.python.org/3/library/time.html",1,"#ebd198")
+    text5=FONT.render("- https://www.youtube.com/watch?v=WoJTB23pyWk",1,"#ebd198")
 
 
 class Player_config:
