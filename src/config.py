@@ -1,0 +1,7 @@
+class Window:
+    SCREEN_WIDTH= 1000
+    SCREEN_HEIGHT=800
+class Player:
+    PLAYER_WIDTH=40
+    PLAYER_HEIGHT=60
+
