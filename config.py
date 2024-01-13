@@ -28,6 +28,7 @@ class Variabile:
     FONT=pygame.font.Font("Fonts/Pixel_Font.TTF",20)
     FONT_TITLE=pygame.font.Font("Fonts/Pixel_Font.TTF",50)
     FONT_LOSE=pygame.font.Font("Fonts/Pixel_Font.TTF",30)
+    FONT_NUME=pygame.font.Font("Fonts/Pixel_Font.TTF",10)
     clock= pygame.time.Clock()
     Backround=pygame.transform.scale(pygame.image.load('Backround.png'),(Window.SCREEN_WIDTH,Window.SCREEN_HEIGHT))
     screen = pygame.display.set_mode((Window.SCREEN_WIDTH,Window.SCREEN_HEIGHT),pygame.RESIZABLE)

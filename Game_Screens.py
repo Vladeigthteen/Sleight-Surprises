@@ -87,10 +87,15 @@ def menu():
 
         Sleight_text=Variabile.FONT_TITLE.render("Sleight",1,"#ebd198")
         Surprises_text=Variabile.FONT_TITLE.render("Surprises",1,"#ebd198")
+        Nume_VladF=Variabile.FONT_NUME.render("Fraticiu Vlad",1,"#F1C568")
+        Nume_VladR=Variabile.FONT_NUME.render("Raduica Vlad",0,"#F1C568")
         Variabile.screen.fill((0,0,0))
         Variabile.screen.blit(Variabile.Menu_Backround,(0,0))
         Variabile.screen.blit(Sleight_text,(230,110))
         Variabile.screen.blit(Surprises_text,(189,180))
+        Variabile.screen.blit(Nume_VladF,(620,545))
+        Variabile.screen.blit(Nume_VladR,(620,555))
+
         # Variabile.screen.blit(Variabile.Sleight_Surprises,(117.5,200))
         Variabile.clock.tick(60)
 
